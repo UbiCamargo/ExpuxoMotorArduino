@@ -11,7 +11,7 @@ int i, itemp;
 void setup(){
   Serial.begin(9600);
   i = 0;
-  itemp = 0
+  itemp = 0;
   sck = 2; 
   dt = 3; 
   calibra = 130000.00;

@@ -39,7 +39,7 @@ float Calc(float Peso){
   return Newton;
 }
 
-bool GravTemp(float Newton){
+void GravTemp(float Newton){
   armz[i] =  Newton; 
   if(armz[i] == armz[i-1]){
     itemp++; 

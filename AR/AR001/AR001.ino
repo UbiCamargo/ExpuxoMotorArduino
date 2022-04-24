@@ -2,7 +2,8 @@
 
 HX711 balanca;
 
-float sck, dt, calibra; 
+int sck, dt;
+float calibra; 
 float peso, newton;
 float armz[100];
 bool enc; 

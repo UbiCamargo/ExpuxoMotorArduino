@@ -55,6 +55,10 @@ void GravTemp(float Newton){
 void finish(){
   //finish ainda não implementado, a finalização lista tudo
   //teste se a função exit(0) encerra o arduino
-
-  exit(0);
+  Serial.println("Começou")
+  int ifinal = i;
+  for(i=0;i<=ifinal;i++){
+    Serial.println(armz[i]);
+  }
+  Serial.println("Terminou");
 }
